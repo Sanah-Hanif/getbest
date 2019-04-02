@@ -10,6 +10,7 @@ def getCols(f):
     for head in headings:
         if head == "Student Number": num_col=i
         elif head == "Mark" : mark_col = i
+		i += 1
     return (num_col, mark_col)
 
 def findTop(f,num_col, mark_col):
